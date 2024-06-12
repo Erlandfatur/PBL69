@@ -6,6 +6,11 @@ TagManager:
   tags:
   - CinemachineTarget
   - Enemy
+  - Water
+  - Destination
+  - NPC
+  - NPC1
+  - NPC2
   layers:
   - Default
   - TransparentFX
@@ -27,7 +32,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Animal
   - 
   - 
   - 
