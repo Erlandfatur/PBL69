@@ -11,6 +11,7 @@ TagManager:
   - NPC
   - NPC1
   - NPC2
+  - Collect
   layers:
   - Default
   - TransparentFX
