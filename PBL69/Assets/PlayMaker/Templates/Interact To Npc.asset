@@ -303,7 +303,7 @@ MonoBehaviour:
         - useVariable: 1
           name: Player Target
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
@@ -420,6 +420,12 @@ MonoBehaviour:
       isGlobal: 0
     - name: NonAktif Tombol Interact
       isSystemEvent: 0
+      isGlobal: 0
+    - name: Pemburu Datang
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
+      isSystemEvent: 1
       isGlobal: 0
     globalTransitions: []
     variables:

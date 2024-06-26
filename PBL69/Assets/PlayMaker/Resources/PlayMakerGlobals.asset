@@ -21,8 +21,26 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: LevelNum
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: ValuePrefPlayerPerLevel
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: Reset Level
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables:
     - useVariable: 1
@@ -47,12 +65,31 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
-    objectVariables: []
+    - useVariable: 1
+      name: PemburuDummy
+      tooltip: 
+      showInInspector: 1
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Pemburu
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables:
+    - useVariable: 1
+      name: BGM
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.AudioClip
+      value: {fileID: 0}
     materialVariables: []
     textureVariables: []
     arrayVariables: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   events: []

@@ -17991,7 +17991,13 @@ MonoBehaviour:
     globalTransitions: []
     variables:
       floatVariables: []
-      intVariables: []
+      intVariables:
+      - useVariable: 1
+        name: ValuePrefPlayerPerLevel
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 5
       boolVariables: []
       stringVariables: []
       vector2Variables: []
@@ -18013,7 +18019,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
