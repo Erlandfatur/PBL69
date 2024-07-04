@@ -25,7 +25,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 100
+        y: 132
         width: 111
         height: 32
       isBreakpoint: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 278
-        y: 83
+        y: 115
         width: 108
         height: 48
       isBreakpoint: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
           name: Lanjut Level
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: State 6
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -213,8 +213,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 504
-        y: 82
+        x: 593
+        y: 89
         width: 100
         height: 16
       isBreakpoint: 0
@@ -327,8 +327,8 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Maps
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 502
-        y: 128
+        y: 160
         width: 100
         height: 32
       isBreakpoint: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 666
-        y: 140
+        y: 172
         width: 100
         height: 16
       isBreakpoint: 0
@@ -542,6 +542,117 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
+    - name: State 6
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 453.03906
+        y: 52.398438
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Lanjut Level
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State 3
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.DebugLog
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: b2cf10009c59e50148c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: UI KAMU BENAR
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: NPC BENAR
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Lanjut Level
+        byteData: 0000000000000100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000110000001100000001000000010000000700000012000000010000000f0000001700000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - logLevel
+        - text
+        - sendToUnityLog
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 0000000000000000010000000000000001000000020000000000000006000000000000000000000007000000
+        paramByteDataSize: 0000000000000000000000000100000001000000040000000000000001000000000000000000000001000000
     events:
     - name: Compare Npc
       isSystemEvent: 0
@@ -565,6 +676,12 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: Maps
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 1
       boolVariables:
       - useVariable: 1
         name: NPC Compare
@@ -591,6 +708,12 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: {fileID: 0}
+      - useVariable: 1
+        name: UI KAMU BENAR
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -598,7 +721,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

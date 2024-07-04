@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes 1/MenuRap.unity
+    guid: 5a28bbe51928139479bb0be21dde20af
+  - enabled: 1
     path: Assets/Scenes 1/Map Rap.unity
     guid: 880c5cdcb91739a4aae2e6f9eaab5d36
   - enabled: 1
     path: Assets/Scenes 1/Lvl Harimau.unity
     guid: e4b70b13e3a77b64ba61dedd08ea93e8
+  - enabled: 1
+    path: Assets/Scenes 1/Lvl Badak.unity
+    guid: 705dcd700b999964b83b557dc148efa1
+  - enabled: 1
+    path: Assets/Scenes 1/LvlOrangUtan.unity
+    guid: 1cf8bf09ed28d404aa1582d488bb564d
   - enabled: 1
     path: Assets/Level 1.unity
     guid: 5f4df1fc4e56f414b8d324ad47957fbd
