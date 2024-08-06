@@ -814,11 +814,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 5eadb82e-7484-4350-9325-1b7172e20be8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: PBL69
+  organizationId: unity_9363693aad0241fb3bfe
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
