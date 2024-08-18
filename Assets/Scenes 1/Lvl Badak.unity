@@ -32485,7 +32485,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 1
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 837357582}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -33899,7 +33899,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 8
+        value: 10
       boolVariables: []
       stringVariables: []
       vector2Variables: []

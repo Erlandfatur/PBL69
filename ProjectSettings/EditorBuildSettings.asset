@@ -32,5 +32,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes 1/Loading Game.unity
     guid: 779dd99851011b84d897aa35887872c0
+  - enabled: 1
+    path: Assets/UI/Motion Penjelasan/Harimau Motion.unity
+    guid: b0385c6c1aef159488a7541e3b20f126
+  - enabled: 1
+    path: Assets/UI/Motion Penjelasan/Badak Motion.unity
+    guid: d585876e74194e14bb3d31bf193abe20
+  - enabled: 1
+    path: Assets/UI/Motion Penjelasan/Orang Utan Motion.unity
+    guid: d03a2c526e2f537468e02102e8f3c318
+  - enabled: 1
+    path: Assets/UI/Motion Penjelasan/Anoa Motion.unity
+    guid: 4723df52c6277564db674ca3b95c7f82
+  - enabled: 1
+    path: Assets/UI/Motion Penjelasan/Komodo Motion.unity
+    guid: 4bc8299628f55e440b01c72acb9d39ee
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
